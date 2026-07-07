@@ -1,5 +1,13 @@
 # Changelog
 
+## v1.0.5 (2026-07-07)
+
+- Added: backup retention. Each sync run's backup folder only ever contained that run's changed/
+  deleted files (not a full copy of everything, by design), but nothing ever cleaned up old run
+  folders — they accumulated forever. New "Bewaartermijn back-ups" setting per profile (default
+  30 days, 0 = keep forever) automatically prunes old backup-run folders after each successful
+  sync.
+
 ## v1.0.4 (2026-07-07)
 
 - Fixed: opening License from the menu while already licensed let you send another license
