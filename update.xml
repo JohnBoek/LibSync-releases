@@ -7,11 +7,9 @@
   (LibSync.UI.csproj <Version> at build time), and <url> must point at that exact installer asset
   on this repo's Releases page.
 
-  Current state: NO real release published yet (Fase 5 built the pipeline; Fase 6 will do the
-  first real v1.0.0 release). The <version>/<url> below are placeholders and must be replaced with
-  the real values once v1.0.0 is actually tagged and the installer asset is uploaded and verified
-  reachable (compare asset size byte-for-byte against the locally built installer via the GitHub
-  API before treating a release as live).
+  Current state: v1.0.0 is LIVE (published 2026-07-07, tag "v1.0.0"). Asset verified
+  byte-for-byte against the local build via the GitHub API (size + SHA256 both matched exactly)
+  before this file was finalized.
 
   The installer's output filename is a FIXED "LibSync-Setup.exe" (no version suffix, see
   protect/installer/LibSync.iss) from day one, so both this file and the website's download button
