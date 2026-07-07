@@ -1,5 +1,17 @@
 # Changelog
 
+## v1.0.3 (2026-07-07)
+
+- Fixed: the orphan-files dialog (shown when "sync deletes" is off and files exist in a target
+  folder that no longer exist in source) let you select two conflicting actions at once (e.g.
+  Delete and Copy back) — only one is now selectable at a time, as intended.
+- Fixed: choosing Delete, Copy back, or Rename for orphan files could silently do nothing if
+  there were no other changes to sync — the chosen action now always runs.
+- Fixed: Restore (File → Restore) could fail with "The calling thread cannot access this object
+  because a different thread owns it" when clicking Preview or Restore.
+- Fixed: the log panel (main window and Restore window) now automatically scrolls to the newest
+  entry instead of requiring a manual scroll.
+
 ## v1.0.2 (2026-07-07)
 
 - Fixed: closing the update dialog without clicking a button (the X button, Alt+F4, Escape) no
