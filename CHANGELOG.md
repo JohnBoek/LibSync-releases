@@ -1,5 +1,13 @@
 # Changelog
 
+## v1.0.4 (2026-07-07)
+
+- Fixed: opening License from the menu while already licensed let you send another license
+  request or open the activation window for no reason — it now shows a simple confirmation
+  that you're already licensed instead.
+- Added: a "Check for updates" button in Options, so you don't have to wait for the automatic
+  startup check or restart the app to see if a new version is available.
+
 ## v1.0.3 (2026-07-07)
 
 - Fixed: the orphan-files dialog (shown when "sync deletes" is off and files exist in a target
