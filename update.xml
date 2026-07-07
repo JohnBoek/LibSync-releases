@@ -20,7 +20,7 @@
   API before wiring a per-version URL, don't assume a casing convention holds.
 -->
 <item>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <url>https://github.com/JohnBoek/LibSync-releases/releases/latest/download/LibSync-Setup.exe</url>
     <changelog>https://github.com/JohnBoek/LibSync-releases/blob/main/CHANGELOG.md</changelog>
     <mandatory>false</mandatory>
