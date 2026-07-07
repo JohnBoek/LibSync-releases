@@ -1,5 +1,13 @@
 # Changelog
 
+## v1.0.6 (2026-07-07)
+
+- Fixed: backup files could end up read-only (inherited from "set read-only after sync" target
+  files), which could block deleting or pruning old backups and could make restoring fail when
+  overwriting a read-only file. New backups are no longer read-only, and pruning/restoring now
+  clear the read-only flag on existing files as needed — including backups already on disk from
+  before this fix.
+
 ## v1.0.5 (2026-07-07)
 
 - Added: backup retention. Each sync run's backup folder only ever contained that run's changed/
