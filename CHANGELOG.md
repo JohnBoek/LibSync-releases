@@ -1,5 +1,22 @@
 # Changelog
 
+## v1.0.7 (2026-07-08)
+
+- Fixed: previewing a sync with staging enabled could show misleading results (wrong file names,
+  wrong change type) whenever the staging mount folder was set to an absolute path — which is the
+  normal case, since the folder picker always writes an absolute path.
+- Fixed: in a rare case, a staged file could be silently discarded without its content ever
+  reaching its destination and without a backup being made.
+- Fixed: applying read-only permissions and restoring from backup could be interrupted by a folder
+  shortcut (junction/symlink) inside the target or backup folder.
+- Fixed: syncing a folder that contains a junction/symlink you didn't expect could propose
+  deleting files reachable only through it with no explanation — you'll now see a warning instead,
+  both when previewing and when running a sync.
+- Fixed: a staging folder path saved with a trailing slash could, in a rare case, cause the
+  staging folder itself to be removed after promoting its last file.
+- Improved: after promoting staged files into place, empty leftover folders in the staging area
+  are now cleaned up automatically.
+
 ## v1.0.6 (2026-07-07)
 
 - Fixed: backup files could end up read-only (inherited from "set read-only after sync" target
