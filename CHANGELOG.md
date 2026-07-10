@@ -1,5 +1,14 @@
 # Changelog
 
+## v1.0.8 (2026-07-10)
+
+- Fixed: files stored with Windows Server Data Deduplication, or OneDrive "Files On-Demand"
+  placeholders, could be flagged as junctions/symlinks and skipped entirely during scanning —
+  making already-synced files repeatedly show up as new/added on every sync, even though nothing
+  had actually changed.
+- Fixed: the main window could open too small to show the action buttons (Validate/Save/Preview/
+  Run sync) once a profile with staging enabled showed its staging panel.
+
 ## v1.0.7 (2026-07-08)
 
 - Fixed: previewing a sync with staging enabled could show misleading results (wrong file names,
