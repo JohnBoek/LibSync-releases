@@ -1,5 +1,10 @@
 # Changelog
 
+## v1.0.9 (2026-07-23)
+
+- Improved: in the license window, "Buy license" is now the primary button. Reporting an
+  activation or purchase problem is now a smaller link instead of its own button.
+
 ## v1.0.8 (2026-07-10)
 
 - Fixed: files stored with Windows Server Data Deduplication, or OneDrive "Files On-Demand"
