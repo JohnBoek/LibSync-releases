@@ -1,5 +1,12 @@
 # Changelog
 
+## v1.1.0 (2026-09-15)
+
+- Added: one-time licenses for one active computer, with no annual renewal or restriction to a specific AutoCAD version.
+- Improved: activate and move a license through the personal link in your purchase email. A valid permanent license also works offline.
+- Improved: registered existing licenses can be converted automatically while keeping their original expiry date.
+- Security: license signatures are now checked without storing a license-creation secret in the app.
+
 ## v1.0.9 (2026-07-23)
 
 - Improved: in the license window, "Buy license" is now the primary button. Reporting an
