@@ -1,5 +1,11 @@
 # Changelog
 
+## v1.2.2 (2026-09-23)
+
+- Fixed: the New and Delete profile buttons now remain clearly recognizable as buttons in the Light, Dark, and Book themes.
+- Fixed: enabling the staging folder no longer pushes the Validate, Save, Preview, and Run Sync buttons out of view.
+- Fixed: resizing the activity log now works in both directions without collapsing the main action buttons or breaking the window layout.
+
 ## v1.2.1 (2026-09-23)
 
 - Fixed: maximizing the main window now fills the complete Windows work area instead of leaving unused space along the right and bottom edges.
