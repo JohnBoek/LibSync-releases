@@ -7,10 +7,10 @@
   (LibSync.UI.csproj <Version> at build time), and <url> must point at that exact installer asset
   on this repo's Releases page.
 
-  Current state: v1.2.1 is LIVE (2026-09-23). GitHub latest metadata confirms the
+  Current state: v1.2.2 is LIVE (2026-09-23). GitHub latest metadata confirms the
   LibSync-Setup.exe asset. Unauthenticated HEAD returned 200 and Content-Length
-  55250056; the full public download also matched the tested installer's byte size and
-  SHA-256 b7f6bd98915cb1ff19d52470c22dc60eee487dba858fc02476a0a654f330c604.
+  55321824; the full public download also matched the tested installer's byte size and
+  SHA-256 5675db85140f27d1e7c4563b41bd7ca2b6bf7e6412fabb7e227ccd2409b112c7.
   These checks completed before updating the version below.
 
   The installer's output filename is a FIXED "LibSync-Setup.exe" (no version suffix, see
@@ -22,7 +22,7 @@
   API before wiring a per-version URL, don't assume a casing convention holds.
 -->
 <item>
-    <version>1.2.1</version>
+    <version>1.2.2</version>
     <url>https://github.com/JohnBoek/LibSync-releases/releases/latest/download/LibSync-Setup.exe</url>
     <changelog>https://github.com/JohnBoek/LibSync-releases/blob/main/CHANGELOG.md</changelog>
     <mandatory>false</mandatory>
