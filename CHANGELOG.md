@@ -1,5 +1,11 @@
 # Changelog
 
+## v1.2.1 (2026-09-23)
+
+- Fixed: maximizing the main window now fills the complete Windows work area instead of leaving unused space along the right and bottom edges.
+- Improved: Narrator and NVDA now announce the profile- and activity-pane resize handles with clear, localized names.
+- Improved: release builds now complete with stricter style and analyzer checks without warnings.
+
 ## v1.2.0 (2026-09-23)
 
 - Security: Restore now creates a rollback backup before overwriting an existing file. If that backup fails, the live file is left untouched.
