@@ -1,5 +1,14 @@
 # Changelog
 
+## v1.2.0 (2026-09-23)
+
+- Security: Restore now creates a rollback backup before overwriting an existing file. If that backup fails, the live file is left untouched.
+- Improved: refreshed Light, Dark, and Book interfaces with clearer profile, preview, sync, orphan, options, and restore workflows.
+- Improved: windows now fit compact and high-DPI work areas while keeping the important action buttons visible.
+- Improved: form fields and lists expose localized accessibility labels to Windows UI Automation.
+- Privacy: user-facing errors and logs no longer expose full local or network paths, file contents, or stack traces.
+- Added: an illustrated user guide and expanded automated safety coverage for restore, disconnected sources, and partial multi-target failures.
+
 ## v1.1.0 (2026-09-15)
 
 - Added: one-time licenses for one active computer, with no annual renewal or restriction to a specific AutoCAD version.
