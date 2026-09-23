@@ -1,5 +1,9 @@
 # Changelog
 
+## v1.2.3 (2026-09-23)
+
+- Fixed: the profile sidebar now keeps its theme and styling while Preview or Run Sync is working.
+
 ## v1.2.2 (2026-09-23)
 
 - Fixed: the New and Delete profile buttons now remain clearly recognizable as buttons in the Light, Dark, and Book themes.
